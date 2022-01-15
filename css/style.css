@@ -426,6 +426,7 @@ input[type=radio].visually-hidden {
 
 .page-main--about {
   display: flex;
+  align-items: flex-start;
   width: 100%;
   padding-top: 50px
 }
@@ -439,7 +440,8 @@ input[type=radio].visually-hidden {
 
 .page-main--about img {
   width: 300px;
-  margin-right: 50px
+  margin-right: 50px;
+  flex-grow: 0;
 }
 
 @media (max-width:768px) {
@@ -487,7 +489,6 @@ input[type=radio].visually-hidden {
 }
 
 .page-main--price .page-main__text {
-  margin-bottom: 60px;
   font-size: 14px
 }
 
